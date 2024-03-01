@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS SPECIFITY</title>
+    <style>
+
+        /* Cascade algorithm apply in css
+        1)  Positon (Last one matters)
+        2)  speicifity (Inline style > Id selector > class & attribute selector > universal selector)
+        3)  Origin
+        4)  Important
+
+
+        MOST IMPORTANT
+        To calculate specificity, assign a value to each part of the selector:
+
+        Universal Selector: 0
+        Element selectors and pseudo-elements: 1
+        Class selectors, attribute selectors, and pseudo-classes: 10
+        ID selectors: 100
+        Inline styles: 1000
+
+        */
+
+
+        /* #ID{
+            color:aqua;
+        }  */
+        h1.cred{
+            color: red;
+        }
+        .cpurple{
+            color: green;
+        }
+        
+        /* attribute selector */
+        [data-x=y]{ 
+            color: red;
+        }
+        .yellow{
+            color:yellow;
+        }
+
+        /* Adding important to override the inline css */
+        /* h1{
+            color:green !important; 
+        } */
+
+        /* THE SPECIFITY OF THIS SELECTOR: 1 + 10 +10 +10+10 = 41 */
+        a.harryclass.rohan-class[href]:hover {
+            color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1 class="yellow cred cpurple" data-x = "y" id="ID">CSS SPECIFITY</h1>
+    </div>
+</body>
+</html>

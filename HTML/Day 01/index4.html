@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms - Lets learn it</title>
+</head>
+<body>
+    <h1>Apply For Devsinc Interview</h1>
+    <!-- forms in html  [required,autofocus,pattern]-->
+    <form action="#">
+        <div>
+        <label for="username">username</label>
+        <input type="text" required id="username" name="username" placeholder="Enter your username">
+    </div>
+
+    <div>
+        <input type="radio" name="gender" id="maleRadio" value="Male"> 
+        <label for="maleRadio">Male</label>
+
+        <input type="radio" name="gender" id="femaleRadio" value="Male">
+        <label for="femaleRadio">Female</label>
+    </div>
+
+    <div>
+        <input type="checkbox" name="Restrictions" id="RestrictionsOfPage">
+        <label for="RestrictionsOfPage">Accept licence & registration.</label>
+    </div>
+
+<div>
+    <label for="textArea">Enter your comment</label>
+    <br>
+    <textarea name="textArea" id="textArea" cols="28" rows="5" placeholder="Enter your message"></textarea>
+</div>
+
+
+<!-- SELECT TAG -->
+<div>
+    <select name="electronics" id="electronicS">
+
+        <option value="laptop">Laptop</option>
+        <option value="mobile">Mobile</option>
+        <option value="pad">Pad</option>
+        <option value="light">Light</option>
+        <option value="camera">Camera</option>
+    </select>
+</div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sizing Units</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            border: 2px solid black;
+            height: 10vh;
+            /* width: 1600px;  not everone have a window same sized as mentioned so i used vw below not pixels*/
+            width: 80vw;  
+            margin: auto;
+            background-color: aquamarine;
+            box-sizing: border-box;
+        }
+        .container{
+            border: 2px solid black;
+            /* width: 1600px;  not everone have a window same sized as mentioned so i used vw below not pixels*/
+            width: 80vw;  
+            font-size: 18px;
+            height: 80vh;
+            margin: 23px auto;
+            background-color: aquamarine;
+            box-sizing: border-box;
+            
+        }
+        html{
+            font-size: 12px;
+        }
+        .container p{
+            /* em basically inherits the property and double with the written one */
+            /* rm basically inherits the property from root like html double with the written one */
+            
+            font-size: 2rem;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>Hello World</h1>
+    </div>
+    <div class="container">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi velit laudantium pariatur magni aperiam iure, vel officia optio, repellat et fugit eaque minus dolorem cumque, quaerat eveniet. Quidem aut, soluta sed magni neque placeat.</p>
+        
+    </div>
+</body>
+</html>

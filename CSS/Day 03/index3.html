@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS SELECTORS</title>
+    <style>
+        /* Element selector  */
+        /* div{
+            background-color: red;
+        } */
+
+        /* Class selector  */
+        /* .red{
+            background-color: red;
+        } */
+
+        /* ID selector  */
+        /* #redo{
+            background-color: blue;
+        } */
+
+        /* Child selector  */
+        /* div > p{
+            color: blue;
+            background-color: green;
+        } */
+
+        /* Descendent selector  */
+        /* div  p{
+            color: blue;
+            background-color: green;
+        } */
+
+        /* Universal selector  */
+        /* *{
+            margin: 0;
+            padding: 0;
+        } */
+        
+        /* pseudo selector  */
+        /* a:visited{
+            color: yellow;
+        }   
+        a:link{
+            color: brown;
+        }
+        a:active{
+            background-color: red;
+        }
+        a:hover{
+            background-color: yellow;
+        } */
+        p:first-child{
+            color: pink;
+        }
+
+    </style>
+</head>
+<body>
+    <main class="one">
+        <p>I am first here</p>
+        <p>I AM SECOND HERE</p>
+    </main>
+    <div>
+        I am a div
+    </div>
+
+    <div class="red">
+        I am div 2
+        <article>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat aspernatur aliquam adipisci, fuga sit optio quas, sapiente maxime animi illum labore consequuntur eius itaque veniam possimus nihil nemo, odio repellendus deleniti officia.</p>
+    </article>
+    </div>
+
+    <div id="redo">
+        I am another one
+    </div>
+    <a href="https://www.google.com">Go to google</a>
+</body>
+</html>

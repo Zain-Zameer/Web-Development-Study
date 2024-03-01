@@ -1,0 +1,22 @@
+What is SEO?
+SEO stands for Search Engine Optimization. Content matters inside your site. But if there is same content in your site and in some other person sites then core web vitals matters.
+
+CORE WEB VITALS: 
+[*] CLS (Cumulative Layout Shift) means how much page shifts while loading.
+
+[*] LCP(Largest Contextual Paint) Time taken by largest element in page. (2.5 seconds is best)
+
+[*] FCP (First Contextual Paint) means when the landing page is painted on browser to make visible for user.
+
+[*] FID(First Input Delay) If user clicks on any input source like button, then how much time this process will take after pressing the button. (less than 100 miliseconds is best)
+
+
+In inspect button, you can click on lighthouse button where you can generate the report what imporovement your page needs.
+
+Cummulative shift not preferred by google.
+
+SEO ELEMENTS IN HTML:
+[*] Title of page matters a lot.
+[*] Meta desctiption describes the info about your page.
+[*] Now in 2k24 we dont you meta keywords.
+
